@@ -1,9 +1,7 @@
-div{
- max-width: 1600px;
-}
+
 
 #content{
-
+ max-width:fit-content;
  margin: 0 auto;
 
 }
