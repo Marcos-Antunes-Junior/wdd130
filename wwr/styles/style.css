@@ -1,7 +1,7 @@
 
 
 #content{
- max-width:fit-content;
+ max-width: 100%;
  margin: 0 auto;
 
 }
@@ -80,5 +80,5 @@ footer a:hover {
   color: black;
 }
 #hero-img{
-    width: 1600px;
+    width: 100%;
 }
