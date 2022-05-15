@@ -1,0 +1,19 @@
+nav{
+    text-align: center;
+    
+}
+a {
+    color: white;
+    margin: 80px;
+    font-size: 3.0em;
+    padding: 10px;
+
+
+}
+* {
+  background-color:pink;
+}
+a:hover {
+    
+    color: black;
+}
