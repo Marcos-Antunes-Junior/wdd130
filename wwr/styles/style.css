@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Schoolbell&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -238,6 +248,78 @@ nav {
   grid-template-columns: repeat(10, 1fr);
 
 }
+
+/*FAQ*/
+.card {
+  background: #fcfbfb;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  grid-column: 2/10;
+}
+
+details {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 0 1em 0;
+  margin: 1rem 0;
+}
+
+summary {
+  color: #fcfbfb;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #64919f;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary:hover {
+  background: #A35A3E;
+  color: #000000;
+}
+
+details summary::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+details[open] summary::after {
+  content: "\276F";
+  transform: rotate(90deg);
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+details p {
+  margin: 0.5em 0;
+  line-height: 1.2em;
+  background-color: rgba(196 207 207 / 0.7);
+  padding: 1em;
+  margin: 0;
+}
+
+details img {
+  border: solid #64919f 8px;
+  border-radius: 30px;
+  padding: .5rem;
+  background-color: rgba(196 207 207 / 0.7);
+}
+h1{
+color: #A35A3E;
+
+
+
+}
+
+
 
 @media screen and (max-width: 900px) {
 
