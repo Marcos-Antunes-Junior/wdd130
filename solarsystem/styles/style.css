@@ -225,7 +225,7 @@ footer {
 
   .home-title {
     font-size: 25px;
-    color: #6f7364;
+    color: #ffde59;
   }
 
 
@@ -244,4 +244,9 @@ footer {
   footer {
     margin-top: 25px;
   }
+.solarsystem{
+  max-width: 100%;
+}
+
+
 }
