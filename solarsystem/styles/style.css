@@ -190,7 +190,7 @@ footer {
   }
 
   #content {
-    max-width: 100%;
+    max-width: fit-content;
   }
 
 
@@ -245,7 +245,10 @@ footer {
     margin-top: 25px;
   }
 .solarsystem{
-  max-width: 100%;
+  max-width: fit-content;
+}
+.video{
+  max-width: fit-content;
 }
 
 
