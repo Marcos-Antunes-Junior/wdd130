@@ -425,5 +425,14 @@ color: #ffffff;
   .video {
     max-width: 100%;
   }
-
+  #planets-img{
+    max-width: 100%;
+  }
+  #sun-img{
+    max-width: 100%;
+  }
+  details img{
+    max-width: 100%;
+  }
+  
 }
