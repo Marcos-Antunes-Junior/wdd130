@@ -26,6 +26,8 @@ nav a {
   color: #73d3dd;
   text-decoration: none;
   padding: 35px;
+  transition: all 1s ease-out;
+
 }
 
 nav a:hover {
@@ -179,7 +181,7 @@ footer .social img {
 
   width: fit-content;
   box-shadow: 5px 5px 10px #6f7364;
-
+ 
 }
 
 .msg {
@@ -194,6 +196,178 @@ footer .social img {
   margin-left: 100px;
 
 }
+
+/* Page 2 and 3 */
+
+#sun-img{
+  width: 100%;
+  height: 100%; 
+
+}
+.sun-title{
+  color: #ffde59;
+  font-family: 'Andada Pro', serif;
+  font-size: 2em;
+  margin-top: 10px; 
+}
+
+#planets-img{
+  width: 100%;
+  height: 100%; 
+  
+
+}
+.planets-title{
+  color: #ffffff;
+  font-family: 'Andada Pro', serif;
+  font-size: 2em;
+  margin-top: 10px; 
+}
+p{
+  color: #ffde59;
+  font-family:  'Inter', sans-serif;
+}
+.headline{
+  color: #ffffff;
+  font-family: 'Andada Pro', serif;
+}
+.card {
+  background: #000000;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  grid-column: 2/10;
+}
+
+details {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 0 1em 0;
+  margin: 1rem 0;
+}
+
+summary {
+  color: #fcfbfb;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #396E94;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Andada Pro', serif;
+  transition: all 1s ease-out;
+
+}
+
+summary:hover {
+  background: #73d3dd;
+  color: #000000;
+}
+
+details summary::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+details[open] summary::after {
+  content: "\276F";
+  transform: rotate(90deg);
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+details p {
+  margin: 0.5em 0;
+  line-height: 1.2em;
+  
+  padding: 1em;
+  margin: 0;
+}
+.home {
+  background-color: #ffde59;
+  text-decoration: none;
+  font-family: 'Andada Pro', serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 5px;
+  margin-left: 150px;
+  transition: all 1s ease-out;
+}
+.sun {
+  background-color: #ffde59;
+  text-decoration: none;
+  font-family: 'Andada Pro', serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 5px;
+  margin-left: 890px;
+  transition: all 1s ease-out;
+
+}
+.planet{
+  background-color: #ffde59;
+  text-decoration: none;
+  font-family: 'Andada Pro', serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 5px;
+  margin-left: 150px;
+  transition: all 1s ease-out;
+
+
+}
+.home:hover,
+.sun:hover,
+.planet:hover{
+background-color: #ffde5985;
+color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
 
