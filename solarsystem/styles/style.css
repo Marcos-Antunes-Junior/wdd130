@@ -114,6 +114,7 @@ h4 {
   color: #000000;
   margin-top: 50px;
   border-radius: 5px;
+  transition: all 1s ease-out;
 
 }
 
@@ -181,7 +182,7 @@ footer .social img {
 
   width: fit-content;
   box-shadow: 5px 5px 10px #6f7364;
- 
+
 }
 
 .msg {
@@ -199,26 +200,30 @@ footer .social img {
 
 /* Page 2 and 3 */
 
-.sun-title{
+.sun-title {
   color: #ffde59;
   font-family: 'Andada Pro', serif;
   font-size: 2em;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
-.planets-title{
+
+.planets-title {
   color: #ffffff;
   font-family: 'Andada Pro', serif;
   font-size: 2em;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
-p{
+
+p {
   color: #ffde59;
-  font-family:  'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
-.headline{
+
+.headline {
   color: #ffffff;
   font-family: 'Andada Pro', serif;
 }
+
 .card {
   background: #000000;
   margin-top: 40px;
@@ -273,10 +278,11 @@ details[open] summary::after {
 details p {
   margin: 0.5em 0;
   line-height: 1.2em;
-  
+
   padding: 1em;
   margin: 0;
 }
+
 .home {
   background-color: #ffde59;
   text-decoration: none;
@@ -287,8 +293,9 @@ details p {
   border-radius: 5px;
   margin-left: 150px;
   transition: all 1s ease-out;
-  
+
 }
+
 .sun {
   background-color: #ffde59;
   text-decoration: none;
@@ -300,7 +307,8 @@ details p {
   transition: all 1s ease-out;
 
 }
-.planet{
+
+.planet {
   background-color: #ffde59;
   text-decoration: none;
   font-family: 'Andada Pro', serif;
@@ -313,12 +321,14 @@ details p {
 
 
 }
+
 .home:hover,
 .sun:hover,
-.planet:hover{
-background-color: #ffde5985;
-color: #ffffff;
+.planet:hover {
+  background-color: #ffde5985;
+  color: #ffffff;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -328,29 +338,16 @@ color: #ffffff;
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: cover;
+  max-width: 100%;
+  max-height: 100%;
+
 }
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+
+
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
+
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -360,10 +357,9 @@ color: #ffffff;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active {
+  background-color: #73d3dd;
 }
-
 
 /* Fading animation */
 .fade {
@@ -372,8 +368,13 @@ color: #ffffff;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 
@@ -389,7 +390,7 @@ form {
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
- 
+
 }
 
 ul {
@@ -445,25 +446,28 @@ textarea {
   /* same size as the label elements */
 }
 
-  button {
-    /* This extra margin represent roughly the same space as the space
+button {
+  /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
-    margin-left: 0.5em;
+  margin-left: 0.5em;
 
-  }
-  #feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;       
 }
+
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;
+}
+
 .moveDown {
-    margin-top: 3em;
+  margin-top: 3em;
 }
+
 .bg-img {
   /* The image used */
   background-image: url("space.jpg");
@@ -477,42 +481,6 @@ textarea {
   background-size: cover;
   position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -572,14 +540,17 @@ textarea {
   .video {
     max-width: 100%;
   }
-  #planets-img{
+
+  #planets-img {
     max-width: 100%;
   }
-  #sun-img{
+
+  #sun-img {
     max-width: 100%;
   }
-  details img{
+
+  details img {
     max-width: 100%;
   }
-  
+
 }
