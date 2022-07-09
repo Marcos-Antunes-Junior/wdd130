@@ -338,11 +338,17 @@ details p {
 
 /* Hide the images by default */
 .mySlides {
-  display: cover;
-  max-width: 100%;
-  max-height: 100%;
+  display: none;
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
 
 }
+
+.mySlides img{
+  width: 100%;
+}
+
 
 
 /* The dots/bullets/indicators */
